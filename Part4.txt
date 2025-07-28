@@ -1,0 +1,15 @@
+- What input fields would a user (e.g., a customer service representative) need on the
+screen to search for customer data?
+
+Ans มีช่องสำหรับกรอกข้อมูล customer_id ที่ต้องการหาข้อมูล มีช่องสำหรับเลือก startDate และ endDate เพื่อระบุช่วงวันที่เริ่มต้นและสิ้นสุดที่ต้องการค้นหา 
+
+- After the search is performed, what would the output look like on their screen? (e.g., a
+table, a profile card, a list of transactions).
+
+Ans จากโค้ดที่เขียนไปใน Part3 ต้องการค้นหาเพียงแค่ 1 id เท่านั้น ถ้าแสดงออกมาเป็น profile card จะทำให้ดูข้อมูลได้ง่าย และสบายตามากว่า
+    ตัวอย่างคร่าวๆ ของ profile card เป็นดังนี้
+        ID      : 112
+        Name    : Somcai Mani
+        Email   : Somcai@mail.com
+        ...
+    อาจมี column อื่นๆด้วยตามความต้องการ
