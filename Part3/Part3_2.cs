@@ -1,7 +1,7 @@
 public DataTable GetCustomerInfo(string id, string startDate = null, string endDate = null)
 {
     var dt = new DataTable();
-    using (var conn = new SqlConnection("...")) // Connection string is hardcoded
+    using (var conn = new SqlConnection("..."))
     {
         conn.Open();
 

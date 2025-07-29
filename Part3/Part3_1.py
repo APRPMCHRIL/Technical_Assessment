@@ -4,8 +4,9 @@ def get_customer_info(customer_id, startDate=None, endDate=None):
         query = "SELECT id, name, email FROM Customer WHERE id = ?"
         params = [customer_id]
 
+        ##เพิ่มเงื่อนไข
         if startDate and endDate:
-            query += " AND created_at >= ? AND created_at <= ?"
+            query += " AND created_at >= ? AND created_at <= ?" 
             params.extend([startDate, endDate])
             
         with sqlite3.connect('database.db') as conn:

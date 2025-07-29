@@ -1,6 +1,7 @@
 import sqlite3
 
 def get_customer_info(customer_id):
+        ##ใช้ parameterized query
         query = "SELECT name, email FROM Customer WHERE id = ?"
         params = [customer_id]
 
