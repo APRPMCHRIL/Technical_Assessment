@@ -2,7 +2,7 @@
 screen to search for customer data?
 
 Ans มีช่องสำหรับกรอกข้อมูล customer_id ที่ต้องการหาข้อมูล มีช่องสำหรับเลือก startDate และ endDate เพื่อระบุช่วงวันที่เริ่มต้นและสิ้นสุดที่ต้องการค้นหา 
-
+    
 - After the search is performed, what would the output look like on their screen? (e.g., a
 table, a profile card, a list of transactions).
 
